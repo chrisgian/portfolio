@@ -74,12 +74,13 @@ export default function DataSciencePortfolio() {
       {/* Hero Section */}
       <section className="min-h-screen flex items-center justify-center px-6 relative">
         <div className="max-w-6xl w-full">
-          <div className="relative">
+          <div className="relative grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             {/* Accent decorations */}
             <div className="absolute -top-20 -left-20 w-40 h-40 bg-sky-500 rounded-full blur-3xl opacity-20 animate-pulse" />
             <div className="absolute -bottom-20 -right-20 w-60 h-60 bg-emerald-500 rounded-full blur-3xl opacity-10" 
                  style={{ animationDelay: '1s' }} />
             
+            {/* Text Content */}
             <div className="relative z-10 space-y-8">
               <div className="inline-block">
                 <div className="flex items-center gap-3 px-4 py-2 bg-zinc-900 border border-zinc-800 rounded-full mb-6 animate-fade-in">
@@ -112,6 +113,22 @@ export default function DataSciencePortfolio() {
                 <a href="#contact" className="px-8 py-4 bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 text-zinc-100 rounded-lg font-medium transition-all hover:scale-105">
                   Get in Touch
                 </a>
+              </div>
+            </div>
+
+            {/* Photo Section */}
+            <div className="relative z-10 flex justify-center md:justify-end" style={{ animation: 'fade-slide-up 1s ease-out 0.3s backwards' }}>
+              <div className="relative w-80 h-80 md:w-96 md:h-96">
+                {/* Gradient border effect */}
+                <div className="absolute inset-0 bg-gradient-to-br from-sky-500 to-emerald-500 rounded-2xl opacity-20 blur-xl" />
+                {/* Image container */}
+                <div className="relative h-full rounded-2xl overflow-hidden border-2 border-sky-500/30 hover:border-sky-500/60 transition-colors">
+                  <img 
+                    src="/assets/photo.png" 
+                    alt="Christopher Gian" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
               </div>
             </div>
           </div>
