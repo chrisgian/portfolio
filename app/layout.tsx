@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import DataSciencePortfolio from "./portfolio";
 
 export const metadata: Metadata = {
   title: "Data Science Portfolio",
@@ -15,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <DataSciencePortfolio />
+        {children}
       </body>
     </html>
   );
