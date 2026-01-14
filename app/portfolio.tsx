@@ -16,33 +16,47 @@ export default function DataSciencePortfolio() {
 
   const projects = [
     {
-      title: "Predictive Customer Churn Model",
-      description: "Built an ensemble model combining XGBoost and Random Forest to predict customer churn with 92% accuracy, reducing retention costs by $2M annually.",
-      tags: ["Python", "XGBoost", "SQL", "AWS"],
-      impact: "92% accuracy",
+      title: "Supply Chain Container Flow Optimization",
+      description: "Analyze detailed shipment and order data to map container movements from origin to destination, identifying optimization opportunities that reduce lead times and costs. Track KPIs including on-time performance, volume, and carton distribution at container and PO-item levels.",
+      tags: ["Python", "SQL", "Data Engineering", "Optimization"],
+      impact: "Current Role @ Nike",
       link: "#"
     },
     {
-      title: "Real-Time Anomaly Detection System",
-      description: "Developed an LSTM-based anomaly detection system for monitoring network traffic, identifying security threats 15 seconds faster than existing solutions.",
-      tags: ["TensorFlow", "Keras", "Kafka", "Docker"],
-      impact: "15s faster detection",
+      title: "Demand-Driven Allocation Algorithms",
+      description: "Integrated real-time and historical demand signals into allocation algorithms to improve forecast accuracy and responsiveness. Built end-to-end data pipelines, developed optimization models, and automated the entire allocation process from data ingestion to output delivery.",
+      tags: ["Optimization", "Python", "Data Pipelines", "Analytics"],
+      impact: "1.75 years @ Nike",
       link: "#"
     },
     {
-      title: "NLP Sentiment Analysis Pipeline",
-      description: "Created a production-grade sentiment analysis pipeline processing 50K+ customer reviews daily, informing product development decisions.",
-      tags: ["BERT", "PyTorch", "FastAPI", "MongoDB"],
-      impact: "50K reviews/day",
+      title: "Expected Delivery Date & Inventory Flow Modeling",
+      description: "Leveraged demand signals to recommend inventory padding and flow through distribution centers. Built stock/flow simulations accounting for replenishment cycles, safety stock, and lead times. Translated DC operational rules into model logic for accurate delivery date promises.",
+      tags: ["Simulation", "Forecasting", "Python", "Process Modeling"],
+      impact: "2.8 years @ Nike",
+      link: "#"
+    },
+    {
+      title: "NLP-Enhanced Customer Search System",
+      description: "Enhanced internal search capabilities for customer call centers by applying NLP methods and integrating with the ElasticSearch API.",
+      tags: ["NLP", "ElasticSearch", "Python"],
+      impact: "XPO Logistics",
+      link: "#"
+    },
+    {
+      title: "Less-Than-Truckload Forecasting",
+      description: "Improved forecast accuracy (MAPE) for daily tonnage predictions, supporting more effective labor planning and resource allocation.",
+      tags: ["Forecasting", "Time Series", "Python"],
+      impact: "XPO Logistics",
       link: "#"
     }
   ];
 
   const skills = [
-    { category: "Machine Learning", items: ["Scikit-learn", "TensorFlow", "PyTorch", "XGBoost", "Keras"] },
-    { category: "Data Engineering", items: ["Apache Spark", "Airflow", "Kafka", "SQL", "NoSQL"] },
-    { category: "Cloud & Tools", items: ["AWS", "GCP", "Docker", "Kubernetes", "Git"] },
-    { category: "Languages", items: ["Python", "R", "SQL", "Scala", "JavaScript"] }
+    { category: "Supply Chain & Optimization", items: ["Supply Chain Analytics", "Optimization Algorithms", "Demand Forecasting", "Inventory Modeling", "Logistics Analytics"] },
+    { category: "Data Engineering", items: ["Python", "SQL", "Data Pipelines", "Apache Spark", "ETL Processes"] },
+    { category: "Analytics & ML", items: ["Statistical Modeling", "Time Series Forecasting", "NLP", "Scenario Analysis", "Scikit-learn"] },
+    { category: "Tools & Platforms", items: ["AWS", "ElasticSearch", "Tableau/Dashboards", "Git", "Docker"] }
   ];
 
   return (
@@ -88,7 +102,7 @@ export default function DataSciencePortfolio() {
                 fontFamily: 'system-ui, sans-serif',
                 animation: 'fade-slide-up 1s ease-out 0.2s backwards'
               }}>
-                Transforming complex data into actionable insights. Specializing in machine learning, predictive analytics, and building scalable AI solutions.
+                Senior Data Scientist specializing in supply chain optimization, demand forecasting, and logistics analytics. 7+ years turning complex data into operational impact at Nike and leading logistics companies.
               </p>
               
               <div className="flex gap-4 pt-6" style={{ animation: 'fade-slide-up 1s ease-out 0.4s backwards' }}>
