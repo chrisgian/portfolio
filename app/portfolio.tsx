@@ -4,7 +4,6 @@ import React, { useState, useEffect } from 'react';
 import { BarChart3, Github, Linkedin, Mail, ExternalLink, TrendingUp, Database, Brain } from 'lucide-react';
 
 export default function DataSciencePortfolio() {
-  const [activeSection, setActiveSection] = useState('hero');
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
