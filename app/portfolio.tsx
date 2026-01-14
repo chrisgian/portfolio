@@ -225,17 +225,12 @@ export default function DataSciencePortfolio() {
           </p>
           
           <div className="flex justify-center gap-6 flex-wrap">
-            <a href="mailto:your.email@example.com" 
+            <a href="https://linkedin.com/in/chgian" target="_blank" rel="noopener noreferrer"
                className="flex items-center gap-3 px-8 py-4 bg-sky-500 hover:bg-sky-600 text-white rounded-lg font-medium transition-all hover:scale-105 hover:shadow-lg hover:shadow-sky-500/50">
-              <Mail className="w-5 h-5" />
-              Email Me
-            </a>
-            <a href="https://linkedin.com" 
-               className="flex items-center gap-3 px-8 py-4 bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 text-zinc-100 rounded-lg font-medium transition-all hover:scale-105">
               <Linkedin className="w-5 h-5" />
               LinkedIn
             </a>
-            <a href="https://github.com" 
+            <a href="https://github.com/chrisgian" target="_blank" rel="noopener noreferrer"
                className="flex items-center gap-3 px-8 py-4 bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 text-zinc-100 rounded-lg font-medium transition-all hover:scale-105">
               <Github className="w-5 h-5" />
               GitHub
